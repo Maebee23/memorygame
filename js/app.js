@@ -209,13 +209,13 @@ function compare(e) {
   }
 
   if (openCards.length > 2) {
+    clicked = true;
     e.target.classList.remove('open');
     e.target.classList.remove('show');
     openCards = [];
   }
 
-  if (matchedCards.length === cardList.length) {
-    console.log('you win!');
+  if (matchedCards.length === cardList.length) 
     win();
   }
 }
@@ -250,10 +250,11 @@ function cardClose(e) {
     first.classList.remove('flipOutY');
     second.classList.remove('flipInY');
     second.classList.remove('flipOutY');
+    openCards = [];
   }, 800);
   first.classList.remove('firstCard');
   second.classList.remove('secondCard');
-  openCards = [];
+
 }
 
 //Game won pop up modal
