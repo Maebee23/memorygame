@@ -215,7 +215,7 @@ function compare(e) {
     openCards = [];
   }
 
-  if (matchedCards.length === cardList.length) 
+  if (matchedCards.length === cardList.length) {
     win();
   }
 }
