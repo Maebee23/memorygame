@@ -172,13 +172,11 @@ function starCount(e) {
     resetTimer();
     startTimer();
   }
-  if (move === 20) {
+  if (move === 25) {
     star[0].classList.remove('fa-star');
-  } else if (move === 40) {
+  } else if (move === 45) {
     star[1].classList.remove('fa-star');
-  } else if (move === 60) {
-    star[2].classList.remove('fa-star');
-  }
+  } 
 }
 
 //reset timer at game restart
