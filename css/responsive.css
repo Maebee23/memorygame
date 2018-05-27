@@ -1,0 +1,66 @@
+@media screen and (max-width: 359px) {
+  h1 {
+    font-size: 30px;
+  }
+  .moves {
+    padding-left: 1em;
+  }
+  .restart {
+    padding-right: 1em;
+  }
+  .deck {
+    width: 100%;
+    height: 400px;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .deck .card {
+    width: 60px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 399px) {
+  .deck {
+    padding: 1em;
+    width: 100%;
+    height: 460px;
+  }
+  .deck .card {
+    width: 72px;
+    height: 85px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 679px) {
+  .deck {
+    padding: 1em;
+    width: 100%;
+    height: 495px;
+  }
+  .deck .card {
+    width: 80px;
+    height: 90px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 800px) {
+  h1 {
+    font-size: 40px;
+  }
+  .deck {
+    width: 640px;
+    height: 720px;
+  }
+  .deck .card {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .deck {
+    height: 720px;
+  }
+}
